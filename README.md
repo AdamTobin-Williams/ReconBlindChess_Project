@@ -12,13 +12,16 @@ proposed team name: Chessdinger
 ## Notes <br>
 Piece Tracking
 - The computer tracks all possible locations of opponent pieces and displays them in a semi-transparent overlay. This overrides the display mode as longs as tracking is active. If the number of possible boards exceeds 5,000 at the end of your turn, the assistant turns off. The Bot should be able to do this (or something similar)
+
 Things the Bot will have to Consider
 -  The most logical moves the opponent could have made (if the bot failed to sense what move was made)
 -  Where the opponent’s piece moved FROM as well as moved to
 -  Where the opponent most likely sensed
 -  What would the most logical move be in regular chess?
+
 Other Ideas
 -  Is there a way to calculate the bot’s Elo? Would this be helpful at all?
+
 What happens if we guess wrong?
 - Backtrack and reevaluate?
 - Continue?
