@@ -7,8 +7,8 @@ Library: https://reconchess.readthedocs.io/en/latest/
 
 Slides: https://circuitinstitute.slack.com/files/U010M1CAJ0M/F05G76Z8AJD/bytes_challenge_chess_2023.docx?origin_team=T89L0S73J&origin_channel=C05GPT9DNF4
 
-Notes:
-## Recon Blind Chess Notes
+## Notes:
+### Recon Blind Chess Notes
 Piece Tracking
   The computer tracks all possible locations of opponent pieces and displays them in a semi-transparent overlay. This overrides the display mode as longs as tracking is active. If the number of possible boards exceeds 5,000 at the end of your turn, the assistant turns off.
   Bot should be able to do this (or something similar)
@@ -20,7 +20,7 @@ Things the Bot will have to Consider
 Other Ideas
   Is there a way to calculate the bot’s Elo? Would this be helpful at all?
 
-## Basic chess bot Ideas:
+### Basic chess bot Ideas:
 Game state evaluation: quantifying the value of a specific position and trying to take moves that improve that value
   Assign values to specific pieces and positions, tweaking these values could improve bot
   Value of sensing positions based on your position and guess of the opponents'? Aim for sensing in such a way that it collapses possibilities to enable piece tracking?
