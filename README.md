@@ -45,7 +45,7 @@ What happens if we guess wrong?
 ## Resources <br>
 Bots
 - [Collection of Basic Bots](https://github.com/wrbernardoni/Baseline-Bots)
-- [Strangefish, the winning bot of the 2019 NeurIPS tournament]([/https://github.com/ginop/reconchess-strangefish](https://github.com/ginop/reconchess-strangefish/blob/master/strangefish/strangefish.py))
+- [Strangefish, the winning bot of the 2019 NeurIPS tournament](https://github.com/ginop/reconchess-strangefish)
 
 Important Papers
 - [RBC Overview and potential approaches to strategy](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9842/1/Reconnaissance-blind-multi-chess--an-experimentation-platform-for-ISR/10.1117/12.2228127.full?SSO=1)
