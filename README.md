@@ -27,27 +27,31 @@ What happens if we guess wrong?
 - Continue?
    
 ## Bot Components <br>
-- Possible Board State Tracker
-  - Marks most likely states that can then be further analyzed
-- Board Evaluation
-  - Classical elements: Postiion, board control, material)
-  - RBC Elements: uncertainty, potential for attack, potential for unknown check
-- Sense Strategy
-  - Reducing the number of possible states
-  - Most informative for potential attacks/king safety
-- _Guessing Opponent Sense_
-  - Can help set up for better attacks
-- Move Strategy
-  - Searching through possibilities and selecting a move that best responds to the most likely board states
-  - Should more heavily weigh factors like king safety/future check potential
+### Strangefish2
+- Calculation time estimator
+- Time allocator
+- Convert board strength to probability
+- Memoized calculations
+- Flag boards for evaluation
+- Low time backup plan
+- Handle outcome of opponent's move
+- Sense strategy
+  - Minimizing the number of opponent positions
+  - Maximize advantage over opponent
+- Handle sense result
+- Move strategy
+  - Weighing moves with best/average/worst case outcomes
+  - Getting engine move if only one possible board state exists
+- Handle outcome of our move
+- Evaluation while waiting for oponnent
  
  
-## Resources <br>
-Bots
-- [Collection of Basic Bots](https://github.com/wrbernardoni/Baseline-Bots)
-- [Strangefish, the winning bot of the 2019 NeurIPS tournament](https://github.com/ginop/reconchess-strangefish)
+## Bots and Resources Used as Reference/Framework <br>
+- [wrbernardoni/Baseline-Bots](https://github.com/wrbernardoni/Baseline-Bots)
+- [gionoperrota/Strangefish2](https://github.com/ginoperrotta/reconchess-strangefish2)
+- [Stockfish](https://stockfishchess.org/)
 
-Important Papers
+## Papers <br>
 - [RBC Overview and potential approaches to strategy](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9842/1/Reconnaissance-blind-multi-chess--an-experimentation-platform-for-ISR/10.1117/12.2228127.full?SSO=1)
 - [Game state tracker](https://dl.acm.org/doi/pdf/10.5555/3417639.3417653)
 - [Complexity and uncertainty in RBC](https://arxiv.org/pdf/1811.03119.pdf)
