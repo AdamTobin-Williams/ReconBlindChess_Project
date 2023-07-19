@@ -1,4 +1,4 @@
-name: strangefish
+name: reconChess
 channels:
   - defaults
 dependencies:
