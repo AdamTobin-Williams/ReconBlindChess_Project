@@ -1,0 +1,10 @@
+chess.engine DEBUG: "<UciProtocol (pid=7530)>: >> info depth 2 seldepth 2 multipv 1 score cp -1052 nodes 372 nps 372000 hashfull 5 tbhits 0 time 1 pv e8f7" from engine._line_received line 1049 at 2023-07-19 15:51:06,622
+chess.engine DEBUG: "<UciProtocol (pid=7530)>: >> info depth 3 seldepth 3 multipv 1 score cp -1052 nodes 555 nps 555000 hashfull 5 tbhits 0 time 1 pv e8f7 f3d5 e6d5" from engine._line_received line 1049 at 2023-07-19 15:51:06,623
+chess.engine DEBUG: "<UciProtocol (pid=7530)>: >> info depth 4 seldepth 4 multipv 1 score cp -1052 nodes 732 nps 732000 hashfull 5 tbhits 0 time 1 pv e8f7 f3d5 e6d5 b3a5" from engine._line_received line 1049 at 2023-07-19 15:51:06,623
+chess.engine DEBUG: "<UciProtocol (pid=7530)>: >> info depth 5 seldepth 5 multipv 1 score cp -1052 nodes 886 nps 443000 hashfull 5 tbhits 0 time 2 pv e8f7 f3d5 e6d5 b3a5" from engine._line_received line 1049 at 2023-07-19 15:51:06,623
+chess.engine DEBUG: "<UciProtocol (pid=7530)>: >> info depth 6 seldepth 6 multipv 1 score cp -1039 nodes 1144 nps 572000 hashfull 5 tbhits 0 time 2 pv e8f7 b3a5 g7g6 d2g5 d5c3" from engine._line_received line 1049 at 2023-07-19 15:51:06,624
+chess.engine DEBUG: "<UciProtocol (pid=7530)>: >> info depth 7 seldepth 6 multipv 1 score cp -1062 nodes 3018 nps 1509000 hashfull 5 tbhits 0 time 2 pv c7c6 f3d5" from engine._line_received line 1049 at 2023-07-19 15:51:06,624
+chess.engine DEBUG: "<UciProtocol (pid=7530)>: >> bestmove c7c6 ponder f3d5" from engine._line_received line 1049 at 2023-07-19 15:51:06,624
+chess.engine DEBUG: "<UciProtocol (pid=7530)>: << quit" from engine.send_line line 1023 at 2023-07-19 15:53:04,691
+chess.engine DEBUG: "<UciProtocol (pid=7530)>: Process exited" from engine.process_exited line 1020 at 2023-07-19 15:53:05,000
+chess.engine DEBUG: "<UciProtocol (pid=7530)>: Connection lost (exit code: 0, error: None)" from engine.connection_lost line 1007 at 2023-07-19 15:53:05,001
